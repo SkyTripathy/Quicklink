@@ -295,5 +295,5 @@ Found a bug? [Open an issue](https://github.com/SkyTripathy/Quicklink/issues).
 ---
 
 <p align="center">
-  Built with ❤️ for marketers who want full control over their tracking data.
+  Built with ❤️ By [Sky](https://www.linkedin.com/in/skytripathy/).
 </p>
