@@ -92,8 +92,8 @@ Two-subdomain setup:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/trackflow.git
-cd trackflow
+git clone https://github.com/SkyTripathy/Quicklink.git
+cd Quicklink
 ```
 
 ### 2. Create the Database
@@ -289,7 +289,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 If you find this useful, give it a ⭐ on GitHub!
 
-Found a bug? [Open an issue](https://github.com/YOUR_USERNAME/trackflow/issues).
+Found a bug? [Open an issue](https://github.com/SkyTripathy/Quicklink/issues).
 
 ---
 
