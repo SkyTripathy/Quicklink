@@ -295,5 +295,5 @@ Found a bug? [Open an issue](https://github.com/SkyTripathy/Quicklink/issues).
 ---
 
 <p align="center">
-  Built with ❤️ By [Sky](https://www.linkedin.com/in/skytripathy/).
+  Built with ❤️ By <a href="https://www.linkedin.com/in/skytripathy/">Sky</a>
 </p>
