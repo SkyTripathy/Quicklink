@@ -11,7 +11,8 @@ A **premium, self-hosted UTM link tracking** platform built with PHP & MySQL. Cr
 
 **Zero dependencies. No third-party APIs. 100% self-hosted. Free forever.**
 
-<img width="1920" height="912" alt="image" src="https://github.com/user-attachments/assets/e6385dc5-f398-4d50-94d6-8d241947191a" />
+<img width="1920" height="908" alt="image" src="https://github.com/user-attachments/assets/c83bc7ce-ea62-4deb-94a1-17786954d663" />
+
 
 
 ---
