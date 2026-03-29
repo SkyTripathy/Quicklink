@@ -11,7 +11,8 @@ A **premium, self-hosted UTM link tracking** platform built with PHP & MySQL. Cr
 
 **Zero dependencies. No third-party APIs. 100% self-hosted. Free forever.**
 
-![Dashboard Preview](preview.png)
+<img width="1920" height="912" alt="image" src="https://github.com/user-attachments/assets/e6385dc5-f398-4d50-94d6-8d241947191a" />
+
 
 ---
 
@@ -105,7 +106,7 @@ mysql -u root -p your_database < schema.sql
 
 Or paste the contents of `schema.sql` into **phpMyAdmin → SQL tab**.
 
-> **Default login:** `admin` / `admin123` — change this immediately after setup!
+> **Default login:** `admin` / `password` — change this immediately after setup!
 
 ### 3. Configure Database Credentials
 
@@ -141,7 +142,7 @@ Upload files to your web server:
 Edit `app/branding.php`:
 
 ```php
-$brand_name    = 'My Tracker';                      // Tool name (everywhere)
+$brand_name    = 'Quicklink';                      // Tool name (everywhere)
 $brand_logo    = 'https://example.com/logo.png';    // Logo URL or null
 $brand_favicon = 'https://example.com/fav.png';     // Favicon or null
 ```
