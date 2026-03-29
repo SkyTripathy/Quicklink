@@ -220,8 +220,23 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)$ index.php?code=$1 [QSA,L]
 ```
+### Step 7: Create app/.htaccess
+In `app.yourdomain.com` public_html, create `.htaccess`:
+```apache
+RewriteEngine On
 
-### Step 7: Test
+# Don't touch real files, directories, or the api folder
+RewriteRule ^api/ - [L]
+
+# Serve .php files when accessed without extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+```
+
+### Step 8: Test
 - Visit `https://app.yourdomain.com` → login → create a link → click it → check analytics
 
 </details>
